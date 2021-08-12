@@ -1,0 +1,113 @@
+/* Gabriel Villa Morales */
+@charset "UTF-8";
+
+/* TODO: Add any and all needed styles here */
+
+body{
+	background-image: url("images/moviebg.png");
+}
+dt{
+	font-weight: bold;
+}
+dd{
+	font-size: 15px;
+}
+.banner{
+	background-image: url("images/rancidbannerbg.png");
+	
+}
+.outerSheet{
+	border: 3px solid black;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px gray;
+	width: 50em;
+	height: 70em;
+	margin: auto;	
+}
+.leftSheet{
+	float: left;
+	border: 3px hidden; /*solid red*/
+	border-radius: 10px;
+	width: 33em;
+	height: 69.6em;
+}
+.rotten{
+	float: top;
+	border: 3px hidden; /*solid yellow*/
+	border-top-left-radius: 10.2px;
+	width: 33em;
+	height: 5.2em;
+	background-image: url("images/rottenlargebg.png");
+}
+.percent{
+	font-weight: bold;
+	font-size: 60px;
+	color: red;
+	text-align: left;
+	vertical-align: top;
+	padding: 50px;
+}
+.reviews{
+	background-color: lightgray;
+	float: bottom;
+	border: 3px hidden; /*solid orange*/
+	border-bottom-left-radius: 10px;
+	width: 33em;
+	height: 64.75em; /*59.3*/
+}
+.reviewText{
+	background-color: white;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+.critic{
+	vertical-align: top;
+}
+.reviewsLeft{
+	float: left;
+	border: 3px hidden; /*solid aqua*/
+	border-bottom-left-radius: 10px;
+	width: 16em;
+	height: 64.3em;
+}
+.reviewsRight{
+	float: right;
+	border: 3px hidden; /*solid gold*/
+	width: 16em;
+	height: 64.3em;
+}
+.rightSheet{
+	background-color: rgb(143,188,143);
+	float: right;
+	border: 3px solid hidden; /*solid blue*/
+	/*border-radius: 12px;*/
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	width: 17em; /*Fix: adjust if needed*/
+	height: 70em;
+}
+
+.moviePic{
+	float: top;
+	border: 3px hidden; /*solid pink*/
+	width: 17em;
+	height: 28em;
+	/*background-image: url("images/overview.png");*/
+}
+.moviePic img {
+	width: 100%;
+    border-top-right-radius: 10.5px;
+}
+.movieInfo{
+	padding-left: 10px;
+	float: bottom;
+	border: 3px hidden; /*solid purple*/
+	border-bottom-right-radius: 12px;
+	width: 16.5em;
+	height: 41.5em;
+}
+.shadowTitle{
+	font-size: 1.5em;
+	text-shadow: 2px 2px darkgray;
+	text-align: center;
+}
